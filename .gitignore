@@ -7,7 +7,7 @@
 .idea/modules.xml
 .idea/uiDesigner.xml
 .idea/workspace.xml
-src/main/java/facebook/vertex/model/
+src/main/java/vertex/model/
 src/main/resources/
 src/main/webapp/
 src/test/
