@@ -1,0 +1,14 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/artifacts/
+.idea/compiler.xml
+.idea/dictionaries/
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/uiDesigner.xml
+.idea/workspace.xml
+src/main/java/facebook/vertex/model/
+src/main/resources/
+src/main/webapp/
+src/test/
+target/

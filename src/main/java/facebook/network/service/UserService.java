@@ -2,6 +2,7 @@ package facebook.network.service;
 
 import facebook.network.data.Database;
 import facebook.network.model.User;
+import vertex.counter.VertexCounter;
 
 /**
  * @author Igor Hnes on 10/31/17.
@@ -12,15 +13,10 @@ public class UserService {
     // todo getByName(String name )
 
     public static void main(String[] args) {
-//        getAll(); // print all users
-//        getFirst(); // first in mas
-//        getLast(); // last in mas
 
-        final String name = "Bob";
-
-        final User userByName = getByName(name);
-        System.out.println(userByName);
-        // todo create method getBy... (all fields)
+        final VertexCounter vertexCounter = new VertexCounter();
+        final int unicode = vertexCounter.countUnicode("test");
+        System.out.println(unicode);
     }
 
     private static User getByName(String name) {
