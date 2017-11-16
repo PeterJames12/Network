@@ -6,4 +6,6 @@ package tranning.service.printer;
 public interface Printer {
 
     void print(String text);
+
+
 }

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="vertex">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../UnicodeSum/target/vertex.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

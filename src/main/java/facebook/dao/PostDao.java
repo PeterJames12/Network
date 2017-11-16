@@ -8,9 +8,7 @@ import java.util.List;
 /**
  * @author Igor Hnes on 11/9/17.
  */
-public class PostDao {
+public interface PostDao {
 
-    public List<Post> getAll() {
-        return Database.getAllPost();
-    }
+    List<Post> getAll();
 }

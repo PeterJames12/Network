@@ -2,6 +2,7 @@ package facebook.controller;
 
 import facebook.model.Post;
 import facebook.service.PostService;
+import facebook.service.factory.ServiceFactory;
 
 import java.util.List;
 
@@ -12,12 +13,7 @@ public class PostController {
 
     public static void main(String[] args) {
 
-        final PostService postService = new PostService();
+        final PostService postService = ServiceFactory.getPostService();
 
-        final List<Post> all = postService.getAll();
-
-        for (Post post : all) {
-            System.out.println(post);
-        }
     }
 }
