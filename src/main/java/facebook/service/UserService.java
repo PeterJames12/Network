@@ -9,5 +9,7 @@ import java.util.List;
  */
 public interface UserService {
 
-    public List<User> getAll();
+    List<User> getAll();
+
+    User getByName(String name);
 }
