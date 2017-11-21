@@ -4,6 +4,7 @@ import facebook.model.Group;
 import facebook.service.GroupService;
 import facebook.service.impl.GroupServiceImpl;
 import facebook.util.Status;
+import lombok.val;
 
 import java.util.Iterator;
 import java.util.List;
@@ -15,8 +16,9 @@ public class GroupController {
 
     public static void main(String[] args) {
 
+
         GroupService service = new GroupServiceImpl();
-        final List<Group> groups = service.getAllGroups();
+        val groups = service.getAllGroups();
 
         groups.forEach(System.out::println);
 
@@ -24,7 +26,7 @@ public class GroupController {
             System.out.println(group);
         }
 
-        final Iterator<Group> iterator = groups.iterator();
+        val iterator = groups.iterator();
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }

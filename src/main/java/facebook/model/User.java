@@ -6,6 +6,15 @@ package facebook.model;
 public class User {
 
     private String name;
+    private Status status;
+
+    public Status getStatus() {
+        return status;
+    }
+
+    public void setStatus(Status status) {
+        this.status = status;
+    }
 
     public String getName() {
         return name;
@@ -20,4 +29,6 @@ public class User {
         return "User{" + "name='" + name + '\'' +
                 '}';
     }
+
+    public enum Status {SINGLE, MARRIED}
 }

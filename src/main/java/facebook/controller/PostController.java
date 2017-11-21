@@ -3,6 +3,7 @@ package facebook.controller;
 import facebook.model.Post;
 import facebook.service.PostService;
 import facebook.service.factory.ServiceFactory;
+import lombok.val;
 
 import java.util.List;
 
@@ -13,7 +14,7 @@ public class PostController {
 
     public static void main(String[] args) {
 
-        final PostService postService = ServiceFactory.getPostService();
+        val postService = ServiceFactory.getPostService();
 
     }
 }
